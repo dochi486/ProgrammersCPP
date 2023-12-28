@@ -69,6 +69,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SliceAndSave", "SliceAndSav
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BallThrowing", "BallThrowing\BallThrowing.vcxproj", "{F9763FE8-FED6-4719-BB95-E5A977B3F75A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StringCalculate", "StringCalculate\StringCalculate.vcxproj", "{89722D21-1D26-40DB-AB8D-848642F573DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -341,6 +343,14 @@ Global
 		{F9763FE8-FED6-4719-BB95-E5A977B3F75A}.Release|x64.Build.0 = Release|x64
 		{F9763FE8-FED6-4719-BB95-E5A977B3F75A}.Release|x86.ActiveCfg = Release|Win32
 		{F9763FE8-FED6-4719-BB95-E5A977B3F75A}.Release|x86.Build.0 = Release|Win32
+		{89722D21-1D26-40DB-AB8D-848642F573DC}.Debug|x64.ActiveCfg = Debug|x64
+		{89722D21-1D26-40DB-AB8D-848642F573DC}.Debug|x64.Build.0 = Debug|x64
+		{89722D21-1D26-40DB-AB8D-848642F573DC}.Debug|x86.ActiveCfg = Debug|Win32
+		{89722D21-1D26-40DB-AB8D-848642F573DC}.Debug|x86.Build.0 = Debug|Win32
+		{89722D21-1D26-40DB-AB8D-848642F573DC}.Release|x64.ActiveCfg = Release|x64
+		{89722D21-1D26-40DB-AB8D-848642F573DC}.Release|x64.Build.0 = Release|x64
+		{89722D21-1D26-40DB-AB8D-848642F573DC}.Release|x86.ActiveCfg = Release|Win32
+		{89722D21-1D26-40DB-AB8D-848642F573DC}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
