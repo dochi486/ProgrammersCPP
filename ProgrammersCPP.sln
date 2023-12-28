@@ -61,6 +61,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Count7", "Count7\Count7.vcx
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CtrlZ", "CtrlZ\CtrlZ.vcxproj", "{4FF53039-8AA1-40A9-BFC5-342D66FDCABC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BinarySum", "BinarySum\BinarySum.vcxproj", "{F8844CDE-6BC3-4ACC-8E6A-F9FEE8153413}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -301,6 +303,14 @@ Global
 		{4FF53039-8AA1-40A9-BFC5-342D66FDCABC}.Release|x64.Build.0 = Release|x64
 		{4FF53039-8AA1-40A9-BFC5-342D66FDCABC}.Release|x86.ActiveCfg = Release|Win32
 		{4FF53039-8AA1-40A9-BFC5-342D66FDCABC}.Release|x86.Build.0 = Release|Win32
+		{F8844CDE-6BC3-4ACC-8E6A-F9FEE8153413}.Debug|x64.ActiveCfg = Debug|x64
+		{F8844CDE-6BC3-4ACC-8E6A-F9FEE8153413}.Debug|x64.Build.0 = Debug|x64
+		{F8844CDE-6BC3-4ACC-8E6A-F9FEE8153413}.Debug|x86.ActiveCfg = Debug|Win32
+		{F8844CDE-6BC3-4ACC-8E6A-F9FEE8153413}.Debug|x86.Build.0 = Debug|Win32
+		{F8844CDE-6BC3-4ACC-8E6A-F9FEE8153413}.Release|x64.ActiveCfg = Release|x64
+		{F8844CDE-6BC3-4ACC-8E6A-F9FEE8153413}.Release|x64.Build.0 = Release|x64
+		{F8844CDE-6BC3-4ACC-8E6A-F9FEE8153413}.Release|x86.ActiveCfg = Release|Win32
+		{F8844CDE-6BC3-4ACC-8E6A-F9FEE8153413}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
