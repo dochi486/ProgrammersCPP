@@ -79,6 +79,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SharingBalls", "SharingBall
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CompleteTriangle", "CompleteTriangle\CompleteTriangle.vcxproj", "{7804E71D-15AF-44E1-BDE5-41108B044B35}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AlienDictionary", "AlienDictionary\AlienDictionary.vcxproj", "{1A77DB25-81F7-4B3B-89F9-8B2F54E2A755}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -391,6 +393,14 @@ Global
 		{7804E71D-15AF-44E1-BDE5-41108B044B35}.Release|x64.Build.0 = Release|x64
 		{7804E71D-15AF-44E1-BDE5-41108B044B35}.Release|x86.ActiveCfg = Release|Win32
 		{7804E71D-15AF-44E1-BDE5-41108B044B35}.Release|x86.Build.0 = Release|Win32
+		{1A77DB25-81F7-4B3B-89F9-8B2F54E2A755}.Debug|x64.ActiveCfg = Debug|x64
+		{1A77DB25-81F7-4B3B-89F9-8B2F54E2A755}.Debug|x64.Build.0 = Debug|x64
+		{1A77DB25-81F7-4B3B-89F9-8B2F54E2A755}.Debug|x86.ActiveCfg = Debug|Win32
+		{1A77DB25-81F7-4B3B-89F9-8B2F54E2A755}.Debug|x86.Build.0 = Debug|Win32
+		{1A77DB25-81F7-4B3B-89F9-8B2F54E2A755}.Release|x64.ActiveCfg = Release|x64
+		{1A77DB25-81F7-4B3B-89F9-8B2F54E2A755}.Release|x64.Build.0 = Release|x64
+		{1A77DB25-81F7-4B3B-89F9-8B2F54E2A755}.Release|x86.ActiveCfg = Release|Win32
+		{1A77DB25-81F7-4B3B-89F9-8B2F54E2A755}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
