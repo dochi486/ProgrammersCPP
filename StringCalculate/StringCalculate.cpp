@@ -10,19 +10,25 @@ int solution(string my_string)
     string cal;
     
     stringstream ss(my_string);
-    string temp;
+    vector<string> v;
+	string temp;
+
     while(ss >> temp)
     {
-        cal += temp;
+        v.push_back(temp);
     }
 
-    for(auto c : cal)
+    answer = stoi(v[0]);
+
+    for(int i = 0; i < v.size(); ++i)
     {
-        switch (c)
+        if(v[i] == "+")
         {
-            
-            default:
-                break;
+        	answer += stoi(v[i + 1]);
+        }
+        else if(v[i] == "-")
+        {
+        	answer -= stoi(v[i + 1]);
         }
     }
     
@@ -31,6 +37,6 @@ int solution(string my_string)
 
 int main(int argc, char* argv[])
 {
-    solution("3 + 4");
+    solution("3 + 4 - 2 + 5 + 7 + 8 - 2 - 2 - 3 - 5");
     return 0;
 }
