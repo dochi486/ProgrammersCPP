@@ -83,6 +83,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AlienDictionary", "AlienDic
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CuttingPaper", "CuttingPaper\CuttingPaper.vcxproj", "{ABF65103-7AAD-40DC-B970-59DD0246E3D0}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RPGGame", "RPGGame\RPGGame.vcxproj", "{79CA2B23-92FA-4295-B5D9-06E2FD6F08BD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -411,6 +413,14 @@ Global
 		{ABF65103-7AAD-40DC-B970-59DD0246E3D0}.Release|x64.Build.0 = Release|x64
 		{ABF65103-7AAD-40DC-B970-59DD0246E3D0}.Release|x86.ActiveCfg = Release|Win32
 		{ABF65103-7AAD-40DC-B970-59DD0246E3D0}.Release|x86.Build.0 = Release|Win32
+		{79CA2B23-92FA-4295-B5D9-06E2FD6F08BD}.Debug|x64.ActiveCfg = Debug|x64
+		{79CA2B23-92FA-4295-B5D9-06E2FD6F08BD}.Debug|x64.Build.0 = Debug|x64
+		{79CA2B23-92FA-4295-B5D9-06E2FD6F08BD}.Debug|x86.ActiveCfg = Debug|Win32
+		{79CA2B23-92FA-4295-B5D9-06E2FD6F08BD}.Debug|x86.Build.0 = Debug|Win32
+		{79CA2B23-92FA-4295-B5D9-06E2FD6F08BD}.Release|x64.ActiveCfg = Release|x64
+		{79CA2B23-92FA-4295-B5D9-06E2FD6F08BD}.Release|x64.Build.0 = Release|x64
+		{79CA2B23-92FA-4295-B5D9-06E2FD6F08BD}.Release|x86.ActiveCfg = Release|Win32
+		{79CA2B23-92FA-4295-B5D9-06E2FD6F08BD}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
