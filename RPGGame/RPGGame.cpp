@@ -1,4 +1,3 @@
-
 #include <string>
 #include <vector>
 #include <cmath>
@@ -11,8 +10,8 @@ vector<int> solution(vector<string> keyinput, vector<int> board)
     int x = 0;
     int y = 0;
 
-    int dx = board[0]/2;
-    int dy = board[1]/2;
+    int dx = board[0] / 2;
+    int dy = board[1] / 2;
 
     for (auto dir : keyinput)
     {
@@ -30,26 +29,26 @@ vector<int> solution(vector<string> keyinput, vector<int> board)
         //     else
         //         y = board[1] / 2;
         // }
-        
-        if(dir == "right" && x + 1 <= dx)
+
+        if (dir == "right" && x + 1 <= dx)
             x += 1;
-        else if(dir == "left" && x - 1 >= -dx)
+        else if (dir == "left" && x - 1 >= -dx)
             x -= 1;
-        else if(dir == "up" && y + 1 <= dy)
+        else if (dir == "up" && y + 1 <= dy)
             y += 1;
-        else if(dir == "down" && y - 1 >= -dy)
+        else if (dir == "down" && y - 1 >= -dy)
             y -= 1;
     }
 
     answer.push_back(x);
     answer.push_back(y);
-    
+
     return answer;
 }
 
 
 int main(int argc, char* argv[])
 {
-    solution({"right", "right", "right", "right", "right", "left"}, {9, 5});    
+    solution({"right", "right", "right", "right", "right", "left"}, {9, 5});
     return 0;
 }

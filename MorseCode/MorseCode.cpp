@@ -1,4 +1,3 @@
-
 #include <string>
 #include <vector>
 #include <algorithm>
@@ -8,8 +7,10 @@
 using namespace std;
 
 map<string, char> m;
-string arr[26] = {".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",".-..",
-    "--","-.","---",".--.","--.-",".-.","...","-","..-","...-",".--","-..-","-.--","--.."};
+string arr[26] = {
+    ".-", "-...", "-.-.", "-..", ".", "..-.", "--.", "....", "..", ".---", "-.-", ".-..",
+    "--", "-.", "---", ".--.", "--.-", ".-.", "...", "-", "..-", "...-", ".--", "-..-", "-.--", "--.."
+};
 
 string solution(string letter)
 {
@@ -20,16 +21,16 @@ string solution(string letter)
 
     stringstream ss(letter);
 
-    for(int i = 0; i < 26; ++i)
+    for (int i = 0; i < 26; ++i)
     {
         m[arr[i]] = c + i;
     }
 
-    while(ss >> str)
+    while (ss >> str)
     {
         answer += m[str];
     }
-    
+
     return answer;
 }
 

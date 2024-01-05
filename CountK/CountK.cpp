@@ -13,18 +13,18 @@ int solution(int i, int j, int k)
     for (int a = i; a <= j; ++a)
     {
         int b = a;
-        while(1)
+        while (true)
         {
-            if(b == 0)
+            if (b == 0)
                 break;
-            if(b % 10 == k)
+            if (b % 10 == k)
                 answer++;
 
             b /= 10;
         }
     }
 
-    
+
     // 내 답안.. 1을 찾을 경우 11을 처리 못함 ㅠ
     // vector<int> v;
     // auto find_num = to_string(k);
@@ -43,7 +43,7 @@ int solution(int i, int j, int k)
     //         }
     //     }
     // }
-    
+
     return answer;
 }
 

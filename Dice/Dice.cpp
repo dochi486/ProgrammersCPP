@@ -4,23 +4,24 @@
 
 using namespace std;
 
-int solution(vector<int> box, int n) {
+int solution(vector<int> box, int n)
+{
     int answer = 0;
     int volume = 1;
-    
+
     // for (size_t i = 0; i < box.size(); ++i)
     // {
     //     
     // }
 
-    int w = box[0]/n;
-    int h = box[1]/n;
-    int v = box[2]/n;
-    
+    int w = box[0] / n;
+    int h = box[1] / n;
+    int v = box[2] / n;
+
     int dice_volume = w * h * v;
 
     answer = volume / dice_volume;
-    
+
     return dice_volume;
 }
 

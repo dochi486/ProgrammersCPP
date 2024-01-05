@@ -3,7 +3,8 @@
 
 using namespace std;
 
-int solution(int order) {
+int solution(int order)
+{
     int answer = 0;
 
     auto num_str = to_string(order);
@@ -11,24 +12,24 @@ int solution(int order) {
     auto find_str6 = to_string(6);
     auto find_str9 = to_string(9);
 
-    for(int i = 0; i < num_str.size(); ++i)
+    for (int i = 0; i < num_str.size(); ++i)
     {
-        if(num_str[i] == find_str3[0])
+        if (num_str[i] == find_str3[0])
         {
             answer++;
         }
 
-        if(num_str[i] == find_str6[0])
+        if (num_str[i] == find_str6[0])
         {
             answer++;
         }
 
-        if(num_str[i] == find_str9[0])
+        if (num_str[i] == find_str9[0])
         {
             answer++;
         }
     }
-    
+
     return answer;
 }
 

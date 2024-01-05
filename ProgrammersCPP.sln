@@ -83,6 +83,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RPGGame", "RPGGame\RPGGame.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RectangleWidth", "RectangleWidth\RectangleWidth.vcxproj", "{18C7B134-CCD9-415F-9F81-F47AC2EB5B0E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Login", "Login\Login.vcxproj", "{CD8E4272-94C3-459E-91A9-3693C7BA60EC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -411,6 +413,14 @@ Global
 		{18C7B134-CCD9-415F-9F81-F47AC2EB5B0E}.Release|x64.Build.0 = Release|x64
 		{18C7B134-CCD9-415F-9F81-F47AC2EB5B0E}.Release|x86.ActiveCfg = Release|Win32
 		{18C7B134-CCD9-415F-9F81-F47AC2EB5B0E}.Release|x86.Build.0 = Release|Win32
+		{CD8E4272-94C3-459E-91A9-3693C7BA60EC}.Debug|x64.ActiveCfg = Debug|x64
+		{CD8E4272-94C3-459E-91A9-3693C7BA60EC}.Debug|x64.Build.0 = Debug|x64
+		{CD8E4272-94C3-459E-91A9-3693C7BA60EC}.Debug|x86.ActiveCfg = Debug|Win32
+		{CD8E4272-94C3-459E-91A9-3693C7BA60EC}.Debug|x86.Build.0 = Debug|Win32
+		{CD8E4272-94C3-459E-91A9-3693C7BA60EC}.Release|x64.ActiveCfg = Release|x64
+		{CD8E4272-94C3-459E-91A9-3693C7BA60EC}.Release|x64.Build.0 = Release|x64
+		{CD8E4272-94C3-459E-91A9-3693C7BA60EC}.Release|x86.ActiveCfg = Release|Win32
+		{CD8E4272-94C3-459E-91A9-3693C7BA60EC}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

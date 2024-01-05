@@ -5,19 +5,19 @@
 
 using namespace std;
 
-vector<int> solution(vector<int> array) 
+vector<int> solution(vector<int> array)
 {
     vector<int> answer;
     vector<int> copy = array;
-    
+
     sort(array.begin(), array.end());
 
     int size = array.size();
-    
+
     answer.push_back(array[size - 1]);
-    int index = find(copy.begin(), copy.end(), array[size -1]) - copy.begin();
+    int index = find(copy.begin(), copy.end(), array[size - 1]) - copy.begin();
     answer.push_back(index);
-    
+
     return answer;
 }
 

@@ -14,7 +14,7 @@ string solution(string my_string)
     }
 
     sort(answer.begin(), answer.end());
-    
+
     return answer;
 }
 

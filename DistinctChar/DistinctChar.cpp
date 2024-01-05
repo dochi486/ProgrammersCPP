@@ -18,20 +18,19 @@ string solution(string s)
         m[s[i]]++;
     }
 
-    for(auto i : m)
+    for (auto i : m)
     {
-        if(i.second == 1)
+        if (i.second == 1)
         {
             answer += i.first;
         }
     }
-    
+
     return answer;
 }
 
 
 int main(int argc, char* argv[])
 {
-    
     return 0;
 }

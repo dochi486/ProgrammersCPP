@@ -11,7 +11,7 @@ string solution(string my_string, int num1, int num2)
     temp = my_string[num1];
     my_string[num1] = my_string[num2];
     my_string[num2] = temp;
-    
+
     return my_string;
 }
 
@@ -25,6 +25,6 @@ string solution(string my_string, int num1, int num2)
 int main(int argc, char* argv[])
 {
     solution("hello", 1, 2);
-    
+
     return 0;
 }

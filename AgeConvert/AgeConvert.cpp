@@ -12,14 +12,15 @@ string solution(int age)
 {
     string answer = "";
     string s = to_string(age);
-    
-    for(int i=0; i<s.size(); i++)
+
+    for (int i = 0; i < s.size(); i++)
     {
-        answer+=(s[i]+49);
+        answer += (s[i] + 49);
     }
-    
+
     return answer;
 }
+
 /*
 * string solution(int age) {
     string answer = to_string(age);
@@ -36,6 +37,5 @@ string solution(int age)
 
 int main(int argc, char* argv[])
 {
-    
     return 0;
 }

@@ -11,15 +11,15 @@ vector<int> solution(vector<int> emergency)
 
     sort(copy.begin(), copy.end(), greater<>());
 
-    for(int i = 0; i < emergency.size(); ++i)
+    for (int i = 0; i < emergency.size(); ++i)
     {
-        for(int j = 0; j < copy.size(); ++j)
+        for (int j = 0; j < copy.size(); ++j)
         {
-            if(copy[j] == emergency[i])
+            if (copy[j] == emergency[i])
                 answer.push_back(j + 1);
         }
     }
-    
+
     return answer;
 }
 

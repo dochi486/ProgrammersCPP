@@ -9,9 +9,9 @@ int solution(vector<int> array, int n)
 {
     int answer = 0;
 
-    vector<pair<int,int>> v;
+    vector<pair<int, int>> v;
 
-    for(int i = 0; i < array.size(); ++i)
+    for (int i = 0; i < array.size(); ++i)
     {
         v.push_back(make_pair(abs(array[i] - n), array[i]));
     }
@@ -46,6 +46,6 @@ int solution(vector<int> array, int n)
 
 int main(int argc, char* argv[])
 {
-    solution({10,11,12}, 13);
+    solution({10, 11, 12}, 13);
     return 0;
 }

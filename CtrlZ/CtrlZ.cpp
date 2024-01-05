@@ -14,19 +14,19 @@ int solution(string s)
     stringstream ss(s);
     string temp;
 
-    while(ss >> temp)
+    while (ss >> temp)
     {
         s_vector.push_back(temp);
     }
 
     for (int i = 0; i < s_vector.size(); ++i)
     {
-        if(s_vector[i] == "Z")
-            answer -= stoi(s_vector[i -1]);
+        if (s_vector[i] == "Z")
+            answer -= stoi(s_vector[i - 1]);
         else
             answer += stoi(s_vector[i]);
     }
-    
+
     return answer;
 }
 

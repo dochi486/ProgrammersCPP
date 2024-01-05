@@ -4,34 +4,34 @@
 
 using namespace std;
 
-int solution(string my_string) 
+int solution(string my_string)
 {
     int answer = 0;
     string cal;
-    
+
     stringstream ss(my_string);
     vector<string> v;
-	string temp;
+    string temp;
 
-    while(ss >> temp)
+    while (ss >> temp)
     {
         v.push_back(temp);
     }
 
     answer = stoi(v[0]);
 
-    for(int i = 0; i < v.size(); ++i)
+    for (int i = 0; i < v.size(); ++i)
     {
-        if(v[i] == "+")
+        if (v[i] == "+")
         {
-        	answer += stoi(v[i + 1]);
+            answer += stoi(v[i + 1]);
         }
-        else if(v[i] == "-")
+        else if (v[i] == "-")
         {
-        	answer -= stoi(v[i + 1]);
+            answer -= stoi(v[i + 1]);
         }
     }
-    
+
     return answer;
 }
 

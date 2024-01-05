@@ -1,19 +1,18 @@
-
 #include <string>
 #include <vector>
 
 using namespace std;
 
-int solution(int n) 
+int solution(int n)
 {
     int answer = 0;
     int sum = 1;
-    
-    for(int i = 1; i <= n; ++i)
+
+    for (int i = 1; i <= n; ++i)
     {
         sum *= i;
-        
-        if(sum > n)
+
+        if (sum > n)
         {
             answer = i - 1;
             break;
@@ -21,7 +20,7 @@ int solution(int n)
 
         answer = i;
     }
-    
+
     return answer;
 }
 

@@ -11,7 +11,7 @@ int solution(string my_string)
 
     for (int i = 0; i < my_string.size(); ++i)
     {
-        if(isdigit(my_string[i]))
+        if (isdigit(my_string[i]))
         {
             n = n * 10 + my_string[i] - '0';
             // v.push_back(stoi(my_string.substr(i, 1)));
@@ -28,7 +28,7 @@ int solution(string my_string)
     //     answer += a;
     // }
     answer += n;
-    
+
     return answer;
 }
 

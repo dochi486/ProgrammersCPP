@@ -1,4 +1,3 @@
-
 #include <string>
 #include <vector>
 
@@ -8,17 +7,17 @@ int solution(vector<int> array)
 {
     int answer = 0;
 
-    for(int i : array)
+    for (int i : array)
     {
         auto a = to_string(i);
 
-        for(auto it : a)
+        for (auto it : a)
         {
-            if(it == '7')
+            if (it == '7')
                 answer++;
         }
     }
-    
+
     return answer;
 }
 

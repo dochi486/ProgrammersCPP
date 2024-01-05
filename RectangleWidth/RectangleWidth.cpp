@@ -5,7 +5,7 @@
 
 using namespace std;
 
-int solution(vector<vector<int>> dots) 
+int solution(vector<vector<int>> dots)
 {
     vector<int> x;
     vector<int> y;
@@ -18,7 +18,7 @@ int solution(vector<vector<int>> dots)
         y.push_back(dots[i][1]);
     }
 
-    int x_max = *max_element(x.begin(),x.end());
+    int x_max = *max_element(x.begin(), x.end());
     int x_min = *min_element(x.begin(), x.end());
     int y_max = *max_element(y.begin(), y.end());
     int y_min = *min_element(y.begin(), y.end());
@@ -26,7 +26,7 @@ int solution(vector<vector<int>> dots)
     int width = x_max - x_min;
     int height = y_max - y_min;
 
-    
+
     return width * height;
 }
 

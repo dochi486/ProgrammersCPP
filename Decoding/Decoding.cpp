@@ -1,22 +1,21 @@
-
 #include <string>
 #include <vector>
 
 using namespace std;
 
 
-string solution(string cipher, int code) 
+string solution(string cipher, int code)
 {
     string answer = "";
 
     for (size_t i = 0; i <= cipher.size(); ++i)
     {
-        if(i % code == 0 && i != 0)
+        if (i % code == 0 && i != 0)
         {
             answer += cipher[i - 1];
         }
     }
-    
+
     return answer;
 }
 

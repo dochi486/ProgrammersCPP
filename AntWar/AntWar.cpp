@@ -1,4 +1,3 @@
-
 int solution(int hp)
 {
     int answer = 0;
@@ -13,7 +12,7 @@ int solution(int hp)
     hp = hp % 3;
     answer += hp;
 
-    
+
     // do
     // {
     //     if(hp % admiral != 0)
@@ -71,7 +70,7 @@ int solution(int hp)
     //     }
     // }while(hp > 0);
     //
-    
+
     return answer;
 }
 
