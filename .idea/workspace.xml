@@ -20,7 +20,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="043303fd-4f93-4596-9b8d-752ca2731a33" name="변경" comment="" />
+    <list default="true" id="043303fd-4f93-4596-9b8d-752ca2731a33" name="변경" comment="사각형 너비 구하기 풀었음">
+      <change afterPath="$PROJECT_DIR$/LoginDB/LoginDB.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,8 +92,17 @@
       <option name="presentableId" value="Default" />
       <updated>1704418053389</updated>
       <workItem from="1704418054562" duration="120000" />
-      <workItem from="1704418212248" duration="2670000" />
+      <workItem from="1704418212248" duration="5069000" />
     </task>
+    <task id="LOCAL-00001" summary="사각형 너비 구하기 풀었음">
+      <option name="closed" value="true" />
+      <created>1704421802284</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1704421802284</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,5 +112,9 @@
     <isAutomaticCheckingOnLaunch value="false" />
     <isAutomaticFoundErrors value="true" />
     <isAutomaticReloadCMake value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="사각형 너비 구하기 풀었음" />
+    <option name="LAST_COMMIT_MESSAGE" value="사각형 너비 구하기 풀었음" />
   </component>
 </project>
