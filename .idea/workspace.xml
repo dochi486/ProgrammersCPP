@@ -20,10 +20,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="043303fd-4f93-4596-9b8d-752ca2731a33" name="변경" comment="사각형 너비 구하기 풀었음">
-      <change afterPath="$PROJECT_DIR$/LoginDB/LoginDB.cpp" afterDir="false" />
+    <list default="true" id="043303fd-4f93-4596-9b8d-752ca2731a33" name="변경" comment="로그인 문제 맞춤">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +90,7 @@
       <option name="presentableId" value="Default" />
       <updated>1704418053389</updated>
       <workItem from="1704418054562" duration="120000" />
-      <workItem from="1704418212248" duration="5069000" />
+      <workItem from="1704418212248" duration="6076000" />
     </task>
     <task id="LOCAL-00001" summary="사각형 너비 구하기 풀었음">
       <option name="closed" value="true" />
@@ -102,7 +100,23 @@
       <option name="project" value="LOCAL" />
       <updated>1704421802284</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="로그인 문제 코드 일단 작성">
+      <option name="closed" value="true" />
+      <created>1704429284634</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1704429284634</updated>
+    </task>
+    <task id="LOCAL-00003" summary="로그인 문제 맞춤">
+      <option name="closed" value="true" />
+      <created>1704429835986</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1704429835986</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +129,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="사각형 너비 구하기 풀었음" />
-    <option name="LAST_COMMIT_MESSAGE" value="사각형 너비 구하기 풀었음" />
+    <MESSAGE value="로그인 문제 코드 일단 작성" />
+    <MESSAGE value="로그인 문제 맞춤" />
+    <option name="LAST_COMMIT_MESSAGE" value="로그인 문제 맞춤" />
   </component>
 </project>
