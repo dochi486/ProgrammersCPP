@@ -89,6 +89,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ranking", "Ranking\Ranking.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ChickenCoupon", "ChickenCoupon\ChickenCoupon.vcxproj", "{A602D1BC-F28E-4F09-ACA7-139BAF7ABDE8}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CursedNumber3", "CursedNumber3\CursedNumber3.vcxproj", "{DE4B12C8-DA13-4BD9-8864-391992393DE8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -441,6 +443,14 @@ Global
 		{A602D1BC-F28E-4F09-ACA7-139BAF7ABDE8}.Release|x64.Build.0 = Release|x64
 		{A602D1BC-F28E-4F09-ACA7-139BAF7ABDE8}.Release|x86.ActiveCfg = Release|Win32
 		{A602D1BC-F28E-4F09-ACA7-139BAF7ABDE8}.Release|x86.Build.0 = Release|Win32
+		{DE4B12C8-DA13-4BD9-8864-391992393DE8}.Debug|x64.ActiveCfg = Debug|x64
+		{DE4B12C8-DA13-4BD9-8864-391992393DE8}.Debug|x64.Build.0 = Debug|x64
+		{DE4B12C8-DA13-4BD9-8864-391992393DE8}.Debug|x86.ActiveCfg = Debug|Win32
+		{DE4B12C8-DA13-4BD9-8864-391992393DE8}.Debug|x86.Build.0 = Debug|Win32
+		{DE4B12C8-DA13-4BD9-8864-391992393DE8}.Release|x64.ActiveCfg = Release|x64
+		{DE4B12C8-DA13-4BD9-8864-391992393DE8}.Release|x64.Build.0 = Release|x64
+		{DE4B12C8-DA13-4BD9-8864-391992393DE8}.Release|x86.ActiveCfg = Release|Win32
+		{DE4B12C8-DA13-4BD9-8864-391992393DE8}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

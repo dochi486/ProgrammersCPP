@@ -7,6 +7,7 @@ using namespace std;
 
 map<int, int> m;    
 
+// 등수 매기기
 vector<int> solution(vector<vector<int>> score) 
 {
     vector<int> answer;
