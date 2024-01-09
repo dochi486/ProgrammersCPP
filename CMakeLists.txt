@@ -52,4 +52,5 @@ add_executable(ProgrammersCPP
         Ant.cpp
         Ant.h
         ProgrammersCPP.cpp
-        LoginDB/LoginDB.cpp)
+        LoginDB/LoginDB.cpp
+        CursedNumber3.cpp)
